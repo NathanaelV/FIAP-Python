@@ -1,0 +1,56 @@
+# Atividades
+
+1. Dada uma sequência de números interiors onde o último termo dessa sequência é o número 0, <br>
+    calcule a soma de todos os números da sequência.
+
+2. Dados um preço de um produto e o percentual de desconto, calcule o novo preço do produto
+
+3. Dada uma sequência de 10 números inteiros, encontre aquele que é o maior número da sequência.
+
+4. Considere a equação de segundo grau $x²-5x+6=0$ encontre as raízes da equação
+
+# Problemas
+
+Resposta no `work_with_variables.py`
+
+2.1 Dados uma sequência de 5 números inteiros. Calcule a soma de todos os números da sequência
+
+2.2 Dados a base e a altura de um triângulo, calcule sua área
+
+# Primeira Lista de Exercícios - Computational Thinking
+
+Resposta no `01_exercise_list.py`
+
+2. Escreva um algoritmo em Python que recebe seu nome e sobrenome, depois de ler as informações <br>
+mostra na tela o sobrenome e depois o nome.
+
+3. Escreva um algoritmo que recebe o nome de uma pessoa e seu ano de nascimento. Seu algoritmo <br>
+deverá mostrar na tela o nome da pessoa e a idade que ele tem ou terá até o fim de 2024. <br>
+Por exemplo, supondo que a pessoa informe o ano de nascimento como 1986 seu programa deverá imprimir:
+
+    `Fulano de tal tem (ou terá) 34 anos`
+
+4. Escreva um algoritmo em Python que recebe dois números inteiros e exibe: a soma desses dois <br>
+números, a multiplicação, a divisão inteira e o resto da divisão inteira.
+
+5. Escreva um algoritmo que recebe um número $x$ e $y$ e imprime $x^y$. Lembre-se que ∗∗ representa <br>
+a potência entre dois números em Python.
+
+6. Escreva um algoritmo que calcula a área e o perímetro do círculo, use 3.141592 como valor de $π$.
+
+7. Sua tarefa é desenvolver um algoritmo que recebe um número inteiro de 0 a 99 e imprime o <br>
+dígito das dezenas e o dígito das unidades desse número. Dica: usando papel e lápis faça a <br>
+divisão inteira do número por 10 mas não coloque vírgula e nem acrescente 0 na divisão.
+
+8. Uma pessoa tem em seu guarda roupa $x$ camisas, $y$ calças e $z$ pares de sapato. Escreva <br>
+um algoritmo que calcula de quantas maneiras diferentes ele pode se vestir. Seu algoritmo <br>
+deverá ler o **número de camisas**, o **número de calças** e o **número de pares de sapato**.
+
+9. Dados o preço de um produto e um percentual de desconto, escreva um algoritmo que calcula <br>
+e mostra o valor do desconto e o novo preço do produto dado o percentual. E se, ao invés <br>
+de um desconto, fosse um aumento. O que muda no seu algoritmo?
+
+10. Usain Bolt é o recordista mundial dos 100 metros rasos com o tempo de 9,58 segundos.
+Escreva um algoritmo que calcula a velocidade média em m/s e em km/h de um corredor,
+seu algoritmo recebe como dados de entrada a distância em metros e o tempo em segundos.
+
