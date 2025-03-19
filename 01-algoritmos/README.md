@@ -57,3 +57,21 @@ a distância em metros e o tempo em segundos.
 11. Neste mês, João recebeu um aumento no salário, porém ele não sabe calcular o percentual de aumento. <br>
 Você deverá escrever um algoritmo que recebe 2 números reais representando os salários antes e depois do aumento <br>
 e deverá calcular e exibir o percentual de aumento que João obteve.
+
+12. O RM de um aluno da FIAP é composto por 5 dígitos. Sua tarefa é escrever um algoritmo que <br>
+recebe um RM e retorna a somatória de todos os dígitos do RM. Por exemplo, suponha que o aluno <br>
+tenha o RM 56395, seu algoritmo deverá imprimir como saída 28 = 5 + 6 + 3 + 9 + 5. <br>
+
+    *Dica: realize várias divisões e restos de divisões por 10.*
+
+13. Uma disciplina da faculdade possui 3 tipos de avaliações: NAC, AM e PS. A média da disciplina <br>
+é calculada de forma ponderada, onde a NAC tem peso 2, o AM peso 3 e a PS peso 5. Escreva um <br>
+algoritmo que calcula a média da disciplina, seu algoritmo deverá receber as três notas (NAC, AM e PS) <br>
+e deverá imprimir o valor da média.
+
+    $MEDIA = (2 ∗ NAC + 3 ∗ AM + 5 ∗ P S)/10$
+
+14. As casas de São Paulo estão recebendo o carnê do IPTU com duas opções de pagamento: <br>
+à vista ou em 10 vezes. Sua tarefa é desenvolver um programa/algoritmo onde o usuário informa (digita) <br>
+o valor total à vista e o valor de cada parcela. Seu programa imprime o desconto em percentual dado pela <br>
+prefeitura para pagamento à vista.

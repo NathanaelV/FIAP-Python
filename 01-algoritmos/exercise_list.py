@@ -90,9 +90,48 @@ PI = 3.141592
 
 
 # 11
-previous_salary = float(input('Digite o salário anterior: '))
-current_salary = float(input('Digite seu salário atual: '))
+# previous_salary = float(input('Digite o salário anterior: '))
+# current_salary = float(input('Digite seu salário atual: '))
 
-salary_increase = current_salary / previous_salary - 1
+# salary_increase = current_salary / previous_salary - 1
 
-print(f'Você teve um aumento de {salary_increase * 100:.2f} % ')
+# print(f'Você teve um aumento de {salary_increase * 100:.2f} % ')
+
+
+# 12
+# student_rm = int(input('Digite o RM: '))
+
+# fifth = student_rm // 10000
+# rest = student_rm % 10000
+
+# fourth = rest // 1000
+# rest = rest % 1000
+
+# third = rest // 100
+# rest = rest % 100
+
+# second = rest // 10
+# first = rest % 10
+
+# sum = first + second + third + fourth + fifth
+
+# print(f'A soma do RM será: {sum}')
+
+
+# 13
+# nac_note = float(input('Digite a nota NAC: '))
+# am_note = float(input('Digite a nota AM: '))
+# ps_note = float(input('Digite a nota PS: '))
+
+# average = (2*nac_note + 3*am_note + 5*ps_note) / 10
+
+# print(f'A média do aluno é {average:.1f}')
+
+
+# 14
+# price = float(input('Digite o valor à vista: '))
+# installments = float(input('Informe o valor da parcela: '))
+
+# discount = (1 - price / (installments * 10)) * 100
+
+# print(f'O valor do desconto, se pagar a vista, será de {discount:.1f}%')
