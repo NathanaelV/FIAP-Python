@@ -38,19 +38,22 @@ a potência entre dois números em Python.
 
 6. Escreva um algoritmo que calcula a área e o perímetro do círculo, use 3.141592 como valor de $π$.
 
-7. Sua tarefa é desenvolver um algoritmo que recebe um número inteiro de 0 a 99 e imprime o <br>
-dígito das dezenas e o dígito das unidades desse número. Dica: usando papel e lápis faça a <br>
-divisão inteira do número por 10 mas não coloque vírgula e nem acrescente 0 na divisão.
+7. Sua tarefa é desenvolver um algoritmo que recebe um número inteiro de 0 a 99 e imprime o dígito das <br>
+dezenas e o dígito das unidades desse número. Dica: usando papel e lápis faça a divisão inteira do número <br>
+por 10 mas não coloque vírgula e nem acrescente 0 na divisão.
 
-8. Uma pessoa tem em seu guarda roupa $x$ camisas, $y$ calças e $z$ pares de sapato. Escreva <br>
-um algoritmo que calcula de quantas maneiras diferentes ele pode se vestir. Seu algoritmo <br>
-deverá ler o **número de camisas**, o **número de calças** e o **número de pares de sapato**.
+8. Uma pessoa tem em seu guarda roupa $x$ camisas, $y$ calças e $z$ pares de sapato. Escreva um algoritmo <br>
+que calcula de quantas maneiras diferentes ele pode se vestir. Seu algoritmo deverá ler o **número de camisas**, <br>
+ o **número de calças** e o **número de pares de sapato**.
 
-9. Dados o preço de um produto e um percentual de desconto, escreva um algoritmo que calcula <br>
-e mostra o valor do desconto e o novo preço do produto dado o percentual. E se, ao invés <br>
-de um desconto, fosse um aumento. O que muda no seu algoritmo?
+9. Dados o preço de um produto e um percentual de desconto, escreva um algoritmo que calcula e mostra o <br>
+valor do desconto e o novo preço do produto dado o percentual. E se, ao invés de um desconto, fosse um aumento. <br>
+O que muda no seu algoritmo?
 
-10. Usain Bolt é o recordista mundial dos 100 metros rasos com o tempo de 9,58 segundos.
-Escreva um algoritmo que calcula a velocidade média em m/s e em km/h de um corredor,
-seu algoritmo recebe como dados de entrada a distância em metros e o tempo em segundos.
+10. Usain Bolt é o recordista mundial dos 100 metros rasos com o tempo de 9,58 segundos. Escreva um algoritmo <br>
+que calcula a velocidade média em m/s e em km/h de um corredor, seu algoritmo recebe como dados de entrada <br> 
+a distância em metros e o tempo em segundos. 
 
+11. Neste mês, João recebeu um aumento no salário, porém ele não sabe calcular o percentual de aumento. <br>
+Você deverá escrever um algoritmo que recebe 2 números reais representando os salários antes e depois do aumento <br>
+e deverá calcular e exibir o percentual de aumento que João obteve.

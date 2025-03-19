@@ -81,9 +81,18 @@ PI = 3.141592
 
 
 # 10 
-distance = float(input('Digite a distância em metros: '))
-time = float(input('Digite o tempo em segundos: '))
+# distance = float(input('Digite a distância em metros: '))
+# time = float(input('Digite o tempo em segundos: '))
 
-averange_speed = distance / time
+# averange_speed = distance / time
 
-print(f'A velocidade média será {averange_speed:.2f} m/s ou {averange_speed * 3.6:.2f} km/h.')
+# print(f'A velocidade média será {averange_speed:.2f} m/s ou {averange_speed * 3.6:.2f} km/h.')
+
+
+# 11
+previous_salary = float(input('Digite o salário anterior: '))
+current_salary = float(input('Digite seu salário atual: '))
+
+salary_increase = current_salary / previous_salary - 1
+
+print(f'Você teve um aumento de {salary_increase * 100:.2f} % ')
