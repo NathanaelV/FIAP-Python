@@ -41,7 +41,7 @@ from datetime import datetime
 
 
 # 6
-PI = 3.141592
+# PI = 3.141592
 # radius = float(input('Digite o raio da circuferência: '))
 
 # print(f'A área é {PI * pow(radius,2)}')

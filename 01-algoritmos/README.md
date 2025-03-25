@@ -17,6 +17,8 @@ Resposta no `work_with_variables.py`
 
 2.2 Dados a base e a altura de um triângulo, calcule sua área
 
+---
+
 # Primeira Lista de Exercícios - Computational Thinking
 
 Resposta no `01_exercise_list.py`
