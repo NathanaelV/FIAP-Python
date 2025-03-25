@@ -117,6 +117,32 @@ from datetime import datetime
 
 # print(f'A soma do RM será: {sum}')
 
+# Exemplo do professor
+# rm = int(input('Digite o RM: '))
+
+# soma = 0
+# resto = rm % 10
+# soma += resto
+# rm = rm // 10
+
+# resto = rm % 10
+# soma += resto
+# rm = rm // 10
+
+# resto = rm % 10
+# soma += resto
+# rm = rm // 10
+
+# resto = rm % 10
+# soma += resto
+# rm = rm // 10
+
+# resto = rm % 10
+# soma += resto
+# rm = rm // 10
+
+# print(soma)
+
 
 # 13
 # nac_note = float(input('Digite a nota NAC: '))
