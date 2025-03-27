@@ -39,6 +39,31 @@
 #     else:
 #         print(f'O segundo número não pode ser Zero na divisão.')
 
+# Exemplo do professor
+
+num1 = float(input('Digite um número: '))
+num2 = float(input('Digite outro número: '))
+sinal = input('Digite o sinal da operação que deseja fazer (+, -, / ou *): ')
+
+if sinal == '+':
+    resp = num1 + num2
+elif sinal == '-':
+    resp = num1 - num2
+elif sinal == '*':
+    resp = num1 * num2
+elif sinal == '/':
+    if num2 != 0:
+        resp = num1 / num2
+    else:
+        print(f'O segundo número não pode ser Zero na divisão.')
+        resp = None
+else:
+    print('Operador invalido!')
+    resp = None
+
+if resp != None:
+    print(f'Resultado: {num1} {sinal} {num2} = {resp}.')
+
 
 # Problema 3.4
 # salary = float(input('Digite o seu salário: '))
