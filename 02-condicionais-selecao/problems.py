@@ -1,5 +1,5 @@
 
-# Problema 3.1 
+## Problema 3.1 
 # num = int(input('Digite um número inteiro: '))
 
 # if num % 2 == 0:
@@ -11,7 +11,9 @@
 # print(f"{num} é par." if num % 2 == 0 else f"{num} é impar.")
 
 
-# Problema 3.2
+
+## Problema 3.2
+
 # num = float(input('Digit um número: '))
 
 # if num > 0:
@@ -22,7 +24,9 @@
 #     print('O número é zero.')
 
 
-# Problama 3.3
+
+## Problama 3.3
+
 # num1 = float(input('Digite um número: '))
 # num2 = float(input('Digite outro número: '))
 # sinal = input('Digite o sinal da operação que deseja fazer (+, -, / ou *): ')
@@ -41,31 +45,55 @@
 
 # Exemplo do professor
 
-num1 = float(input('Digite um número: '))
-num2 = float(input('Digite outro número: '))
-sinal = input('Digite o sinal da operação que deseja fazer (+, -, / ou *): ')
+# num1 = float(input('Digite um número: '))
+# num2 = float(input('Digite outro número: '))
+# sinal = input('Digite o sinal da operação que deseja fazer (+, -, / ou *): ')
 
-if sinal == '+':
-    resp = num1 + num2
-elif sinal == '-':
-    resp = num1 - num2
-elif sinal == '*':
-    resp = num1 * num2
-elif sinal == '/':
-    if num2 != 0:
-        resp = num1 / num2
-    else:
-        print(f'O segundo número não pode ser Zero na divisão.')
-        resp = None
-else:
-    print('Operador invalido!')
-    resp = None
+# if sinal == '+':
+#     resp = num1 + num2
+# elif sinal == '-':
+#     resp = num1 - num2
+# elif sinal == '*':
+#     resp = num1 * num2
+# elif sinal == '/':
+#     if num2 != 0:
+#         resp = num1 / num2
+#     else:
+#         print(f'O segundo número não pode ser Zero na divisão.')
+#         resp = None
+# else:
+#     print('Operador invalido!')
+#     resp = None
 
-if resp != None:
-    print(f'Resultado: {num1} {sinal} {num2} = {resp}.')
+# if resp != None:
+#     print(f'Resultado: {num1} {sinal} {num2} = {resp}.')
+
+# Using match/case
+
+# num1 = float(input('Digite um número: '))
+# # strip remove os espaços em brancos no começo e no final da String
+# op = input('Digite o operador (+, -, *, /): ').strip()
+# num2 = float(input('Digite outro número: '))
+
+# match op:
+#     case '+':
+#         print(f'{num1} + {num2} = {num1 + num2}')
+#     case '-':
+#         print(f'{num1} - {num2} = {num1 - num2}')
+#     case '*':
+#         print(f'{num1} * {num2} = {num1 * num2}')
+#     case '/':
+#         if num2 != 0:
+#             print(f'{num1} / {num2} = {num1 / num2}')
+#         else:
+#             print('Não divisão por Zero.')
+#     case _:
+#         print('Escolha um operador válido.')
 
 
-# Problema 3.4
+
+## Problema 3.4
+
 # salary = float(input('Digite o seu salário: '))
 
 # if salary <= 1_693.72:
@@ -80,7 +108,9 @@ if resp != None:
 # print(f'O valor será de R$ {value:.2f}.')
 
 
-# Problema 3.5
+
+## Problema 3.5
+
 # first, second, third = 0, 0, 0
 # num1 = int(input('Digiete um número: '))
 # num2 = int(input('Digiete outro número: '))
