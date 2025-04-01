@@ -102,7 +102,7 @@
 #     value = salary * 0.09
 # elif salary <= 5_645.80:
 #     value = salary * 0.11
-# else:
+# elif salary > 5_645.80:
 #     value = 5_645.80 * 0.11
 
 # print(f'O valor será de R$ {value:.2f}.')

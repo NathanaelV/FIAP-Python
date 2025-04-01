@@ -95,9 +95,9 @@ Use a seguinte fórmula para resolver a equação:
     $x1 = (−b + √∆) / 2a$ <br>
     $x2 = (−b − √∆) / 2a$
 
-11. Escreva um algoritmo que calcule o que deve ser pago por um produto, considerando o preço
-normal de etiqueta e a escolha da condição de pagamento. Utilize os códigos da tabela a
-seguir para ler qual a condição de pagamento escolhida e efetuar o cálculo adequado.
+11. Escreva um algoritmo que calcule o que deve ser pago por um produto, considerando o preço <br>
+normal de etiqueta e a escolha da condição de pagamento. Utilize os códigos da tabela a seguir <br>
+para ler qual a condição de pagamento escolhida e efetuar o cálculo adequado.
 
     | código    | condição de pagamento                                     |
     |-----------|-----------------------------------------------------------|
