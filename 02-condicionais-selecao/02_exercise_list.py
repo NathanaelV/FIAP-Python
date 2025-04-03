@@ -255,3 +255,32 @@ import math
 
 
 ## ----- Exercício 13 ----- ##
+
+# 31 - (01, 03, 05, 07), (08, 10, 12)
+# 30 - 04, 06, 09, 11
+# 28 - 02
+
+day = int(input('Digite o dia do mês: '))
+month = int(input('Digite o mês em número (0 à 12): '))
+
+if month <= 12 and day <= 31 and day > 0:
+    if month <= 7 and month % 2 == 1:
+        print('Data é válida')
+    elif month >= 8 and month % 2 == 0:
+        print('Data é válida')
+    elif day < 31:
+        if month == 2 and day > 28:
+            print('Data inválida!')
+        else:
+            print('Data é válido')
+
+    else:
+        print('Data inválida!')
+        
+else:
+    print('Data inválida!')
+
+
+
+## ----- Exercício 14 ----- ##
+
