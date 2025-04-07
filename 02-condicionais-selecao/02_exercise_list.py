@@ -312,7 +312,7 @@ import math
 # if month <= 12 and day <= 31 and day > 0 and month > 0:
 #     if day == 31 and (month == 2 or month == 4 or month == 6 or month == 9 or month == 11):
 #         print('Inválido')
-#     elif day > 29 and month == 2:
+#     elif day >= 29 and month == 2:
 #         print('Inválido')
 #     else:
 #         print('Válido')
@@ -322,6 +322,7 @@ import math
 
 ## ----- Exercício 14 ----- ##
 
+# Verifica se é Bissexto:
 # year = int(input('Digite o ano: '))
 
 # Mais básico:
@@ -347,3 +348,21 @@ import math
 #     print('Ano não Bissexto!')
 
 
+# Verifica se a data é válida:
+
+day = int(input('Digite o dia do mês: '))
+month = int(input('Digite o mês em número (0 à 12): '))
+year = int(input('Digite o ano: '))
+
+if month <= 12 and day <= 31 and day > 0 and month > 0:
+    if day == 31 and (month == 2 or month == 4 or month == 6 or month == 9 or month == 11):
+        print('Inválido')
+    elif day >= 29 and month == 2:
+        if day == 29 and (year % 400 == 0 or (year % 100 != 0 and year % 4 == 0)):
+            print('Válido')
+        else:
+            print('Inválido')
+    else:
+        print('Válido')
+else:
+    print('Inválido')
