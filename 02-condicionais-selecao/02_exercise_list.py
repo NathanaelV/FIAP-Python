@@ -76,6 +76,9 @@ import math
 
 # ----- Professor ----- #
 
+# dias_uteis = int(input('Dias úteis: '))
+# horas_trabalhadas = int(input('Horas trabalhadas no mês: '))
+
 
 
 
@@ -260,27 +263,63 @@ import math
 # 30 - 04, 06, 09, 11
 # 28 - 02
 
-day = int(input('Digite o dia do mês: '))
-month = int(input('Digite o mês em número (0 à 12): '))
+# day = int(input('Digite o dia do mês: '))
+# month = int(input('Digite o mês em número (0 à 12): '))
 
-if month <= 12 and day <= 31 and day > 0:
-    if month <= 7 and month % 2 == 1:
-        print('Data é válida')
-    elif month >= 8 and month % 2 == 0:
-        print('Data é válida')
-    elif day < 31:
-        if month == 2 and day > 28:
-            print('Data inválida!')
-        else:
-            print('Data é válido')
+# if month <= 12 and day <= 31 and day > 0 and month > 0:
+#     if month <= 7 and month % 2 == 1:
+#         print('Data é válida')
+#     elif month >= 8 and month % 2 == 0:
+#         print('Data é válida')
+#     elif day < 31:
+#         if month == 2 and day > 28:
+#             print('Data inválida!')
+#         else:
+#             print('Data é válido')
 
-    else:
-        print('Data inválida!')
+#     else:
+#         print('Data inválida!')
         
-else:
-    print('Data inválida!')
+# else:
+#     print('Data inválida!')
 
+
+# Array
+
+# day = int(input('Digite o dia do mês: '))
+# month = int(input('Digite o mês em número (0 à 12): '))
+
+# thity_one = [1, 3, 5, 7, 8, 10, 12]
+# thity = [4, 6, 9, 11]
+
+# if day < 1:
+#     print('Inválido')
+# elif day <= 31 and month in thity_one:
+#     print('Válido')
+# elif day <= 30 and month in thity:
+#     print('Válido')
+# elif day < 29 and month == 2:
+#     print('Válido')
+# else:
+#     print('Inválido')
+
+
+## ----- Professor ----- ##
+
+# day = int(input('Digite o dia do mês: '))
+# month = int(input('Digite o mês em número (0 à 12): '))
+
+# if month <= 12 and day <= 31 and day > 0 and month > 0:
+#     if day == 31 and (month == 2 or month == 4 or month == 6 or month == 9 or month == 11):
+#         print('Inválido')
+#     elif day > 29 and month == 2:
+#         print('Inválido')
+#     else:
+#         print('Válido')
+# else:
+#     print('Inválido')
 
 
 ## ----- Exercício 14 ----- ##
+
 
