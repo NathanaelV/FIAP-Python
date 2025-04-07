@@ -322,4 +322,28 @@ import math
 
 ## ----- Exercício 14 ----- ##
 
+# year = int(input('Digite o ano: '))
+
+# Mais básico:
+# if year % 400 == 0:
+#     print('Ano Bissexto!')
+# elif year % 100 == 0:
+#     print('Não é bissexto!')
+# elif year % 4 == 0:
+#     print('Ano bissexto!')
+# else:
+#     print('Não é bissexto!')
+
+# Condição verifica quem NÃO é bissexto:
+# if (year % 400 != 0 and year % 100 == 0) or year % 4 != 0:
+#     print('Não é bissexto!')
+# else:
+#     print('Ano Bissexto!')
+
+# Condição verifica que é bissexto:
+# if year % 400 == 0 or (year % 100 != 0 and year % 4 == 0):
+#     print('Ano Bissexto!')
+# else:
+#     print('Ano não Bissexto!')
+
 
