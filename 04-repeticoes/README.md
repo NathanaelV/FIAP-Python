@@ -52,7 +52,7 @@ Aqui terá os exercícios propostos durante as aulas de Python.
 
 <br>
 
-4.  Dados $n$ um inteiro positivo e uma sequência de n números reais, escreva um algoritmo que conta e imprime a <br>
+4.  Dados $n$ um inteiro positivo e uma sequência de $n$ números reais, escreva um algoritmo que conta e imprime a <br>
     quantidade de números positivos e a quantidade de números negativos.
 
 <br>
