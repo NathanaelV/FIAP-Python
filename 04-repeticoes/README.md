@@ -37,12 +37,12 @@ Aqui terá os exercícios propostos durante as aulas de Python.
 
 ## Lista de Exercício 3
 
-1.  Dada uma sequência de números inteiros onde o último elemento é o 0, escreva um algoritmo que calcula a soma <br>
+1.  Dada uma sequência de números inteiros onde o último elemento é o $0$, escreva um algoritmo que calcula a soma <br>
     dos números pares da sequência.
 
 <br>
 
-2.  Dados o número n de alunos de uma turma de Algoritmos e suas notas da primeira prova, determinar a média das <br>
+2.  Dados o número $n$ de alunos de uma turma de Algoritmos e suas notas da primeira prova, determinar a média das <br>
     notas dessa turma. Considere que o usuário digite as informações corretamente.
 
 <br>
@@ -104,4 +104,37 @@ Aqui terá os exercícios propostos durante as aulas de Python.
 
     Escreva um algoritmo que dado $n$, calcula o $n-ésimo$ número da sequência de Fibonacci.
 
-12. 
+12. Dizemos que um número natural n é palíndromo se o 1º algarismo de n é igual ao seu último algarismo, o <br> 
+    2º algarismo de n é igual ao penúltimo algarismo, e assim sucessivamente. <br>
+    Exemplos: 567765 e 32423 são palíndromos. 567675 não é palíndromo.
+
+<br>
+
+13. Vamos escrever um programa que consiste em um Jogo de Adivinhação. O jogo funciona do seguinte modo: sorteia-se <br>
+    um número inteiro aleatório entre 1 e 1000. Sua tarefa é tentar adivinhar o número sorteado através de "chutes".<br>
+    A cada chute o programa deverá informar se o número "sorteado"é maior, menor ou igual ao número "chutado". <br>
+    Quando o usuário acertar o número deverá ser impresso uma mensagem dizendo que ele acertou e a quantidade de <br>
+    chutes dados. Para gerar números aleatórios entre 1 e 1000 use as seguintes instruções dentro do seu programa <br>
+    Python. 
+    
+    ```python
+    import random
+
+    sorteado = random.randint(1,1001)
+    ```
+
+<br>
+
+14. Dizemos que um inteiro positivo n é perfeito se for igual à soma de seus divisores positivos diferentes de n. <br>
+    Exemplo: <br>
+    6 é perfeito, pois 1 + 2 + 3 = 6.<br>
+    Sua tarefa será a de escrever um algoritmo em Python que, dado um inteiro positivo $n$, verificar se $n$ é perfeito.
+
+<br>
+
+15. Dados um inteiro n e uma seqüência de n números inteiros, determinar o comprimento de um segmento crescente de <br>
+    comprimento máximo.
+    Exemplos:
+    Na seqüência 5, 10, 3, 2, 4, 7, 9, 8, 5 o comprimento do segmento crescente máximo é 4.
+    Na seqüência 10, 8, 7, 5, 2 o comprimento de um segmento crescente máximo é 1.
+
