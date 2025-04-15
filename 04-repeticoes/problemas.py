@@ -84,39 +84,40 @@
 
 # print('\n-- Calcula a soma dos n primeiros números --')
 
-# num = int(input('Digite um número: '))
+# n = int(input('Digite um número: '))
 
-# while num <= 0:
-#     num = int(input('Digite um número positivo: '))
+# while n <= 0:
+#     n = int(input('Digite um número positivo: '))
 
 # sum = 0
-# i = 1
+# i = 0
 
 # # Usando o For:
 # # for i in range(1,num+1):
 # #     sum += i
 
 # # Usando o While:
-# while i <= num:
-#     sum += i
+# while i < n:
 #     i += 1
+#     sum += i
+#     print(i, end='') if i == n else print(f'{i} ', end='+ ')
 
-# print(f'A soma será {sum}.\n')
+# print(f' = {sum}\n')
 
 
 
 # 4.6
 
-print('\n-- Divisores de um número --')
+# print('\n-- Divisores de um número --')
 
-num = int(input('Digite um número inteiro: '))
+# num = int(input('Digite um número inteiro: '))
 
-i = 1
-while i <= num:
-    if num % i == 0:
-        if num != i:
-            print(f'{i}', end=', ')
-        else:
-            print(f'{i}\n')
-    i += 1
+# i = 1
+# while i <= num:
+#     if num % i == 0:
+#         if num != i:
+#             print(f'{i}', end=', ')
+#         else:
+#             print(f'{i}\n')
+#     i += 1
 
