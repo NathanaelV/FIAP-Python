@@ -1,3 +1,5 @@
+import math
+
 # Lista de exercícios 04
 
 ## ----- Exercício 01 ----- ##
@@ -101,28 +103,61 @@
 
 ## ----- Exercício 06 ----- ##
 
-i = 0
-bad = 0
-regular = 0
-good = 0
-candidates = 20
+# i = 0
+# bad = 0
+# regular = 0
+# good = 0
+# candidates = 20
 
-while i < candidates:
-    note = int(input('Digite a nota do candidato: '))
+# while i < candidates:
+#     note = int(input('Digite a nota do candidato: '))
 
-    if note > 0 and note <= 20:
-        bad += 1
-    elif note <= 50:
-        regular += 1
-    elif note <= 70:
-        good += 1
+#     if note > 0 and note <= 20:
+#         bad += 1
+#     elif note <= 50:
+#         regular += 1
+#     elif note <= 70:
+#         good += 1
 
-    i += 1
+#     i += 1
 
-bad_percent = bad / candidates * 100
-regular_percent = regular / candidates * 100
-good_percent = good / candidates * 100
+# bad_percent = bad / candidates * 100
+# regular_percent = regular / candidates * 100
+# good_percent = good / candidates * 100
 
-print(f'Notas até 20 pontos: {bad_percent:.2f}%')
-print(f'Notas de 21 até 50 pontos: {regular_percent:.2f}%')
-print(f'Notas de 51 até 70 pontos: {good_percent:.2f}%')
+# print(f'Notas até 20 pontos: {bad_percent:.2f}%')
+# print(f'Notas de 21 até 50 pontos: {regular_percent:.2f}%')
+# print(f'Notas de 51 até 70 pontos: {good_percent:.2f}%')
+
+
+
+## ----- Exercício 07 ----- ##
+
+# fahrenheit = 50
+
+# while fahrenheit <= 150:
+#     celcius = (fahrenheit - 32) * 5 / 9
+#     print(f'{fahrenheit} \t {celcius:.2f}')
+#     fahrenheit += 1
+
+
+
+## ----- Exercício 08 ----- ##
+
+num = int(input('Digite um número: '))
+
+i = 3
+
+if num < 2 or (num != 2 and num % 2 == 0):
+    texto = 'Não é primo'
+else:
+    texto = 'É primo'
+    limit = math.ceil(math.sqrt(num))
+
+    while i <= limit:
+        if (num % 2 == 0 or num % i == 0) and num != 2:
+            texto = 'Não é primo'
+            break
+        i += 2
+
+print(texto)

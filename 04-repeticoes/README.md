@@ -71,13 +71,13 @@ Aqui terá os exercícios propostos durante as aulas de Python.
 
 <br>
 
-7.  A conversão de graus Fahrenheit para centígrados é obtida pela fórmula $C = 9/5 x.(F − 32)$. Escreva um algoritmo <br>
+7.  A conversão de graus Fahrenheit para centígrados é obtida pela fórmula $C = 5/9 \; .\;(F − 32)$. Escreva um algoritmo <br>
     que calcule e escreva uma tabela de graus centígrados em função de graus Fahrenheit que variem de 50 a 150 <br>
     Fahrenheit de 1 em 1.
 
 <br>
 
-8.  Um número inteiro positivo $n$ é denominado primo se existirem apenas dois divisores inteiros positivos dele: <br>
+8.  Um número inteiro positivo $n$ é denominado **primo** se existirem apenas dois divisores inteiros positivos dele: <br>
     o 1 e o próprio $n$. Escreva um algoritmo que recebe um inteiro $n$ e verifica se $n$ é primo ou não.
 
 <br>
@@ -88,7 +88,7 @@ Aqui terá os exercícios propostos durante as aulas de Python.
 
 <br>
 
-10. Escreva um algoritmo que recebe um inteiro positivo $n$ e calcula $n! = 1\; ·\;2 \;· \; 3 \; . . . \; · \;(n − 1)\;·\; n$. <br>
+10. Escreva um algoritmo que recebe um inteiro positivo $n$ e calcula $n! = 1\; ·\;2 \;· \; 3 \; · \; ... \; · \;(n − 1)\;·\; n$. <br>
     Por exemplo, se $n = 6$, então $6! = 1\; ·\; 2\; ·\; 3\; ·\; 4\; ·\; 5\; ·\; 6 = 720$.
 
 <br>
