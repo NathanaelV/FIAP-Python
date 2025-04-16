@@ -7,7 +7,10 @@ import random
 # b = 32
 # print(sum(a,b))
 
+
+
 # Atividade 1
+
 # total = 0
 # num = int(input("Enter a number: "))
 
@@ -19,6 +22,7 @@ import random
 # print(total)
 
 
+
 # Atividade 2
 
 # productPrice = int(input("Enter the product price: "))
@@ -28,6 +32,7 @@ import random
 # productPrice = productPrice * (1 - discount / 100)
 
 # print(productPrice)
+
 
 
 # Atividade 3
@@ -42,6 +47,7 @@ import random
 #         biggest_number = number
 
 # print(f"In {numbers}\nThe biggest number is {biggest_number}")
+
 
 
 # Atividade 4

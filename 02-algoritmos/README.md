@@ -23,6 +23,8 @@ Resposta no `work_with_variables.py`
 
 Resposta no `01_exercise_list.py`
 
+1. Instale o Python 3.? e o VSCode no seu computador.
+
 2. Escreva um algoritmo em Python que recebe seu nome e sobrenome, depois de ler as informações <br>
 mostra na tela o sobrenome e depois o nome.
 
