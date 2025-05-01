@@ -1,4 +1,4 @@
-# 4.1
+# # 4.1
 
 # print('\n-- Soma de 5 números inteiros --')
 # sum = 0
@@ -20,7 +20,7 @@
 
 
 
-# 4.2
+# # 4.2
 
 # print('\n-- Tabuada de um número --')
 
@@ -56,7 +56,7 @@
 
 
 
-# 4.4
+# # 4.4
 
 # print('\n-- Média de 2 notas com validação --')
 

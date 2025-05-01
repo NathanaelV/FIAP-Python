@@ -1,4 +1,5 @@
 import math
+import random
 
 # Lista de exercícios 04
 
@@ -197,21 +198,68 @@ import math
 # num = int(input('Digite o n-ésimo número da sequência de Fibonacci que deseja saber: '))
 
 # i = 3
-# n_minus_1 = 1
-# n_minus_2 = 1
-# resp = 1
+# atual = 1
+# anterior = 1
+# proximo = 1
 
 # while i <= num:
-#     resp = n_minus_1 + n_minus_2
-#     n_minus_2 = n_minus_1
-#     n_minus_1 = resp
+#     anterior = atual
+#     atual = proximo
+#     proximo = atual + anterior
 #     i += 1
 
-# print(resp)
+# print(proximo)
 
 
 
 ## ----- Exercício 12 ----- ##
+
+
+
+
+
+## ----- Exercício 13 ----- ##
+
+# sorteado = random.randint(1, 1001)
+
+# print('Adivinhe um núemero entre 1 e 1000.')
+# num = 0
+# i = 0
+# # print(sorteado)
+
+# while num != sorteado:
+#     num = int(input('Digite seu palpite: '))
+#     i += 1
+
+#     if num < sorteado:
+#         print('Número sorteado é MAIOR.')
+#     elif num > sorteado:
+#         print('Número sorteado é MENOR.')
+
+# print(f'Parabés você acertou após {i} tentativas!')
+# print(f'O número sorteado era {sorteado}')
+
+
+
+## ----- Exercício 14 ----- ##
+
+# num = int(input('Digite um número para saber se é quadrado perfeito: '))
+
+# i = 1
+# sum = 0
+
+# while i < num:
+#     if num % i == 0:
+#         sum += i
+
+#     i += 1
+
+# if sum == num:
+#     print(f'{num} é um número perfeito.')
+
+
+
+## ----- Exercício 15 ----- ##
 
 
 

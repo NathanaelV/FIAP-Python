@@ -128,6 +128,8 @@ Aqui terá os exercícios propostos durante as aulas de Python.
 14. Dizemos que um inteiro positivo n é perfeito se for igual à soma de seus divisores positivos diferentes de n. <br>
     Exemplo: <br>
     6 é perfeito, pois 1 + 2 + 3 = 6.<br>
+    12 não é perfeito, pois 1 + 2 + 3 + 4 + 6 = 16<br>
+    28 é perfeito, pois 1 + 2 + 4 + 7 + 14 = 28<br>
     Sua tarefa será a de escrever um algoritmo em Python que, dado um inteiro positivo $n$, verificar se $n$ é perfeito.
 
 <br>
@@ -135,7 +137,7 @@ Aqui terá os exercícios propostos durante as aulas de Python.
 15. Dados um inteiro n e uma seqüência de n números inteiros, determinar o comprimento de um segmento crescente de <br>
     comprimento máximo. <br>
     Exemplos: <br>
-    Na sequência 5, 10, 3, 2, 4, 7, 9, 8, 5 o comprimento do segmento crescente máximo é 4. <br>
+    Na sequência 5, 10, 3, <u>2, 4, 7, 9</u>, 8, 5 o comprimento do segmento crescente máximo é 4. <br>
     Na seqüência 10, 8, 7, 5, 2 o comprimento de um segmento crescente máximo é 1.
 
 16. 
