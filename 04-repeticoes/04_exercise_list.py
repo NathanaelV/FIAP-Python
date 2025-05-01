@@ -144,20 +144,105 @@ import math
 
 ## ----- Exercício 08 ----- ##
 
-num = int(input('Digite um número: '))
+# num = int(input('Digite um número: '))
 
-i = 3
+# i = 3
 
-if num < 2 or (num != 2 and num % 2 == 0):
-    texto = 'Não é primo'
-else:
-    texto = 'É primo'
-    limit = math.ceil(math.sqrt(num))
+# if num < 2 or (num != 2 and num % 2 == 0):
+#     texto = 'Não é primo'
+# else:
+#     texto = 'É primo'
+#     limit = math.ceil(math.sqrt(num))
 
-    while i <= limit:
-        if (num % 2 == 0 or num % i == 0) and num != 2:
-            texto = 'Não é primo'
-            break
-        i += 2
+#     while i <= limit:
+#         if (num % 2 == 0 or num % i == 0) and num != 2:
+#             texto = 'Não é primo'
+#             break
+#         i += 2
 
-print(texto)
+# print(texto)
+
+
+
+## ----- Exercício 09 ----- ##
+
+# principal = float(input('Digiete a quantidade inicial: '))
+# interest_rate = float(input('Digite a taxa de juros mensal: '))
+# time = int(input('Digite o periodo de tempo da aplicação: '))
+
+# balance = principal * (1 + interest_rate/100) ** time
+
+# print(f'A quantidade final será R$ {balance:.2f}.')
+
+
+
+## ----- Exercício 10 ----- ##
+
+# num = int(input('Digite um número para calcular o fatorial: '))
+
+# i = 1
+# resp = 1
+
+# while i < num:
+#     i += 1
+#     resp *= i
+#     print(resp)
+
+# print(f'Resposta: {resp}')
+
+
+
+## ----- Exercício 11 ----- ##
+
+# num = int(input('Digite o n-ésimo número da sequência de Fibonacci que deseja saber: '))
+
+# i = 3
+# n_minus_1 = 1
+# n_minus_2 = 1
+# resp = 1
+
+# while i <= num:
+#     resp = n_minus_1 + n_minus_2
+#     n_minus_2 = n_minus_1
+#     n_minus_1 = resp
+#     i += 1
+
+# print(resp)
+
+
+
+## ----- Exercício 12 ----- ##
+
+
+
+
+
+
+
+## ----- Exercício 17 ----- ##
+
+# num = float(input('Digite o número para descobrir a raiz quadrada: '))
+
+# i = 1
+# inferior = 0
+# superior = num
+# div = num / 2
+
+# while f'{pow(div, 2):.4f}' != f'{num:.4f}' and i < 1000:
+#     i += 1
+
+#     if div ** 2 == num:
+#         break
+
+#     elif div ** 2 > num:
+#         superior = div
+#         div = (superior - inferior)/2 + inferior
+
+#     elif div ** 2 < num:
+#         inferior = div
+#         div = (superior - inferior)/2 + inferior
+
+
+# print(f'Raiz aproxima é {div:.4f}')
+# print(f'Raiz descoberta depois de {i} tentativas')
+

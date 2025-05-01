@@ -133,8 +133,18 @@ Aqui terá os exercícios propostos durante as aulas de Python.
 <br>
 
 15. Dados um inteiro n e uma seqüência de n números inteiros, determinar o comprimento de um segmento crescente de <br>
-    comprimento máximo.
-    Exemplos:
-    Na seqüência 5, 10, 3, 2, 4, 7, 9, 8, 5 o comprimento do segmento crescente máximo é 4.
+    comprimento máximo. <br>
+    Exemplos: <br>
+    Na sequência 5, 10, 3, 2, 4, 7, 9, 8, 5 o comprimento do segmento crescente máximo é 4. <br>
     Na seqüência 10, 8, 7, 5, 2 o comprimento de um segmento crescente máximo é 1.
+
+16. 
+
+<br>
+
+17. Em quase todas as linguagens existe um método/função que calcula a raiz quadrada de um número. Contudo, vamos <br>
+    supor que na linguagem Python não exista tal método. Sua tarefa é tentar encontrar a raiz quadrada de um número <br>
+    por tentativa e erro, ou seja, seu algoritmo recebe um número real $n > 0$ e tenta encontrar sua raiz quadrada. <br>
+    Dica: pegue um número e eleve ao quadrado, caso ele fique "próximo" ao número $n$, significa que você encontrou a <br>
+    raiz quadrada.
 
