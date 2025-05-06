@@ -179,4 +179,3 @@ Resoluções do professor: https://github.com/egondo/1tdsr
     por tentativa e erro, ou seja, seu algoritmo recebe um número real $n > 0$ e tenta encontrar sua raiz quadrada. <br>
     Dica: pegue um número e eleve ao quadrado, caso ele fique "próximo" ao número $n$, significa que você encontrou a <br>
     raiz quadrada.
-
