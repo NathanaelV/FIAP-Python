@@ -1,3 +1,7 @@
+
+
+Resoluções do professor: https://github.com/egondo/1tdsr
+
 # Atividades
 
 1. Dada uma sequência de números interiors onde o último termo dessa sequência é o número 0, <br>

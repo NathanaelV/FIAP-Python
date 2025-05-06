@@ -2,6 +2,8 @@
 
 Aqui terá os exercícios propostos durante as aulas de Python.
 
+Resoluções do professor: https://github.com/egondo/1tdsr
+
 ## Aula
 
 ### Exercícios CPF

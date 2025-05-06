@@ -2,6 +2,8 @@
 
 Aqui terá os exercícios propostos durante as aulas de Python.
 
+Resoluções do professor: https://github.com/egondo/1tdsr
+
 ## Problemas
 
 **3.1** Um número inteiro pode ser par ou ímpar. Escreva um algoritmo que recebe números inteiro e <br>

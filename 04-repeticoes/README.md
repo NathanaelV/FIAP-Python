@@ -2,6 +2,8 @@
 
 Aqui terá os exercícios propostos durante as aulas de Python.
 
+Resoluções do professor: https://github.com/egondo/1tdsr
+
 ## Problemas
 
 **4.1** Dados uma sequência de 5 números inteiros. Calcule a soma de todos os números da sequência. <br>
