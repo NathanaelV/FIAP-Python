@@ -142,17 +142,21 @@ Resoluções do professor: https://github.com/egondo/1tdsr
     Na sequência 5, 10, 3, <u>2, 4, 7, 9</u>, 8, 5 o comprimento do segmento crescente máximo é 4. <br>
     Na seqüência 10, 8, 7, 5, 2 o comprimento de um segmento crescente máximo é 1.
 
-16. Uma das maneiras de evitar erros na digitação de números como conta corrente, CPF, boleto
-    bancário é a utilização de um ou mais dígitos de controle. Um dos métodos de cálculo é
-    a utilização do método módulo 10. Segue a descrição do algoritmo: Dado um número
-    inteiro n devemos pegar cada dígito desse número começando pela casa das unidades e
-    multiplicar, alternadamente, por 2 e por 1. Caso o resultado da multiplicação seja um
-    número maior ou igual a 10 devemos simplificar esse valor somando os dois dígitos. Após
-    feitas as multiplicações e as simplificações devemos somar todos os valores e calcular o resto
-    da divisão dessa soma por 10. Se o resto for 0 o dígito de controle é zero, caso contrário o
-    dígito de controle será 10 menos o resto.
-    A Figura ?? pode servir de exemplo para o algoritmo móduto 10.
-    Por exemplo vamos pegar o número do meio do boleto, o número corresponde a n = 246421501 e o dígito de controle será 7. Vamos efetuar os seguintes cálculos:
+<br>
+
+16. Uma das maneiras de evitar erros na digitação de números como conta corrente, CPF, boleto bancário é a utilização <br>
+    de um ou mais dígitos de controle. Um dos métodos de cálculo é a utilização do método módulo 10. Segue a descrição <br>
+    do algoritmo: Dado um número inteiro n devemos pegar cada dígito desse número começando pela casa das unidades e <br>
+    multiplicar, alternadamente, por 2 e por 1. Caso o resultado da multiplicação seja um número maior ou igual a 10 <br>
+    devemos simplificar esse valor somando os dois dígitos. Após feitas as multiplicações e as simplificações devemos <br>
+    somar todos os valores e calcular o resto da divisão dessa soma por 10. Se o resto for 0 o dígito de controle é <br>
+    zero, caso contrário o dígito de controle será 10 menos o resto. <br>
+    A **Figura 1** pode servir de exemplo para o algoritmo móduto 10.
+
+    ![Fig. 1. Trecho de boletodo Banco do Brasil](imgs/figura-1:-trecho-de-boleto-do-banco-do-brasil.png)
+
+    Por exemplo vamos pegar o número do meio do boleto, o número corresponde a n = 246421501 e o dígito de controle <br>
+    será 7. Vamos efetuar os seguintes cálculos:
 
         1 ∗ 2 = 2
         0 ∗ 1 = 0
@@ -164,10 +168,9 @@ Resoluções do professor: https://github.com/egondo/1tdsr
         4 ∗ 1 = 4
         2 ∗ 2 = 4
         
-    Daí somamos 2 + 0 + 1(1 + 0) + 1 + 4 + 4 + 3(1 + 2) + 4 + 4 = 23. O resto da divisão de 23
-    por 10 é 3 e como ele é diferente de zero o dígito de controle de 246421501 será 7 (10 − 3).
-    Escreva um algoritmo que lê um número inteiro positivo e calcula o seu dígito de controle
-    usando o método do módulo 10.
+    Daí somamos 2 + 0 + 1(1 + 0) + 1 + 4 + 4 + 3(1 + 2) + 4 + 4 = 23. O resto da divisão de 23 por 10 é 3 e como ele <br>
+    é diferente de zero o dígito de controle de 246421501 será 7 (10 − 3). Escreva um algoritmo que lê um número <br>
+    inteiro positivo e calcula o seu dígito de controle usando o método do módulo 10.
 
 <br>
 
