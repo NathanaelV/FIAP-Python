@@ -28,7 +28,7 @@ Resoluções do professor: https://github.com/egondo/1tdsr
 <br>
 
 4.  Escreva um programa que recebe duas Strings: `frase` e `letras`; a frase representa um conjunto de caracteres e <br>
-    `letras` alguns caracteres. Seu programa deverá substituir cada caracter c contido na `frase` pelo caracter `*` <br>
+    `letras` alguns caracteres. Seu programa deverá substituir cada caracter `c` contido na `frase` pelo caracter `*` <br>
     se este caracter `c` estiver presente em `letras`. <br>
     Por exemplo, se a frase for: <br>
 
@@ -37,11 +37,11 @@ Resoluções do professor: https://github.com/egondo/1tdsr
     You’re the one that has to walk through it.
     ```
 
-    e letras for aro então seu método deverá retornar: 
+    e letras for `aro` então seu método deverá retornar: 
 
     ```
     I c*n *nly sh*w y*u the d***.
-    Y*u’re the one th*t h*s t* w*lk th**ugh it
+    Y*u’*e the *ne th*t h*s t* w*lk th**ugh it.
     ```
 
     Note que, seu programa deverá funcionar independente da letra ser maiúscula ou minúscula, ou seja, toda letra `"a"` <br>
