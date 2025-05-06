@@ -261,8 +261,22 @@ import random
 
 ## ----- Exercício 15 ----- ##
 
+# # seq = [5, 10, 3, 2, 4, 7, 9, 8, 5]
+# seq = [10, 8, 7, 5, 2]
 
+# maior, count = 0, 0
+# ant = -float('inf')
 
+# for n in seq:
+#     if ant < n:
+#         count += 1
+#         if count > maior:
+#             maior = count
+#     else:
+#         count = 1
+#     ant = n
+
+# print(f'Maior sequência positiva: {maior}')
 
 
 
