@@ -1,12 +1,27 @@
-import math
 
-num = 10
-half_num = num // 2
-num_faq = math.factorial(num)
-half_num_faq = math.factorial(half_num)
+# ------ Using List ------ #
 
-resp = num_faq / (pow(2, half_num) * half_num_faq)
-print(int(resp))
+# print('\n Solução usando Lista:\n')
+# tupla_names = ("Ana", "Bia", "Celi", "Diana", "Eva", "Fabia")
+# names = list(tupla_names)
 
-names = ("Ana", "Bia", "Celi", "Diana", "Eva", "Fabia")
+# while len(names) > 0:
+#     first_name = names.pop(0)
 
+#     for name in names:
+#         print(f'{first_name} e {name}')
+
+
+
+# ------ Without use List ------ #
+
+tupla_names = ("Ana", "Bia", "Celi", "Diana", "Eva", "Fabia")
+
+tupla_len = len(tupla_names)
+
+first = 0
+while first < tupla_len - 1:
+    for n in range(first+1, tupla_len):
+        print(f'{tupla_names[first]} e {tupla_names[n]}')
+
+    first += 1
